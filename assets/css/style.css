@@ -260,6 +260,10 @@ padding: 40px 20px;
 
 /* media querries */
 @media screen and (max-width: 992px) {
+  #product-carousal .carousel-control-next,   #product-carousal .carousel-control-prev {
+    height: 50%;
+    margin-top: 50%;
+  }
   .bag,
   .bag.popular {
     padding: 10px 0;
@@ -302,13 +306,15 @@ padding: 40px 20px;
     text-shadow: none;
     padding-top: 20px;
   }
+ 
   .product-desc .nav-link {
     font-size: 14px;
     text-shadow: none;
     font-weight: 500;
   }
+
 /* card */
-.col img{
+#card .col img{
     position:static;
     margin-bottom: 10px;
 }
